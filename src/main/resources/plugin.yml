@@ -1,0 +1,12 @@
+name: NUPGame
+version: 1.0.0
+main: ru.nosqd.nupgame.NupGamePlugin
+description: a minigame plugin
+author: nupdevs
+website: https://nosqd.ru
+api-version: '1.20'
+depend: [Kotlin]
+commands:
+  nup:
+    description: "nup.game management"
+    usage: "/nup <tp>"
